@@ -1,101 +1,106 @@
-.todo{
-    background-color: hsl(216, 12%, 8%);
-    height: 100vh;
-}
-.titulo{
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-    text-align: start;
-    gap: 2rem;
-    margin: 10px;
+.todo {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
 }
 
-.sub_titulo{
-    font-size: 15px;
-    color: hsl(217, 12%, 63%);
-    font-weight: 400;
-    text-align: start;
-    gap: 2rem;
-    margin: 10px;
+.titulo {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: start;
+  gap: 2rem;
+  margin: 10px;
 }
+
+.sub_titulo {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  text-align: start;
+  gap: 2rem;
+  margin: 10px;
+}
+
 .container {
-    width: 400px;
-    height: 380px;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 10px;
-    background-color:hsl(213, 19%, 18%);
-    text-align: center;
-  }
-  
-  .rounded-top-left {
-    border-radius: 10px 0 0 10px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px 0;
-  }
-  
-  .button {
-    margin: 10px;
-    padding: 10px 10px;
-    background-color: hsl(218, 10%, 22%);
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .button:hover {
-    background-color: #ffa500;
-    color: white;
-  }
-  
-   .button:hover:visited {
-    background-color: #ffa500;
-    color: white;
-    }
-  .submit-button {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: hsl(25, 97%, 53%);
-    color:  hsl(0, 0%, 100%);
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-    font-weight:700 ;
-    letter-spacing: 1px;
-    width: 90%;
-  }
-  
-  .submit-button:hover {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(25, 97%, 53%);
-  }
+  width: 400px;
+  height: 380px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+}
 
-  .Photo{
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: hsl(218, 10%, 22%);
-    border: none;
-    border-radius: 25px;
-    display: flex ;
-  }
+.rounded-top-left {
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
 
-.afterClick{
-    background-color: hsl(217, 12%, 63%);
-    color: white;
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.rating_button {
+  margin: 10px;
+  padding: 10px 17px;
+  background-color: hsl(218, 10%, 22%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.rating_button:hover {
+  background-color: #ffa500;
+  color: white;
+}
+
+.rating_button:hover:visited {
+  background-color: #ffa500;
+  color: white;
+}
+
+.submit {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  max-width: 100%;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.Photo {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: hsl(218, 10%, 22%);
+  border: none;
+  border-radius: 25px;
+  display: flex;
+}
+
+.afterClick {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
 
 }
 
@@ -103,31 +108,31 @@
 
 /** Aqui va todo lo de la imagen de gracias **/
 
-.thanksPicture{
-    margin-top: 40px;
-    margin-bottom: 20px;
+.thanksPicture {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.titulo2{
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    gap: 2rem;
-    margin: 10px;
+.titulo2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  gap: 2rem;
+  margin: 10px;
 }
 
-.sub_titulo2{
-    font-size: 15px;
-    color: hsl(217, 12%, 63%);
-    font-weight: 400;
-    text-align: center;
-    gap: 2rem;
-    margin: 10px;
+.sub_titulo2 {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  text-align: center;
+  gap: 2rem;
+  margin: 10px;
 
 }
 
-.Photo2{
+/* .Photo2{
     margin-left: 55px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -139,9 +144,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
-  .text_color{
-    color: hsl(25, 97%, 53%);
-  }
-
+.amount_selected {
+  color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 25%;
+  background-color: hsl(215, 10%, 24%);
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}

@@ -7,30 +7,33 @@
     <title>Proyecto FrontEnd Mentor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="index2.html">
-    
+
 </head>
 
 <body class="todo">
 
     <div class="container">
-       <div > <img class="Photo " src="images/icon-star.svg" alt="star"> </div> 
+        <div> <img class="Photo " src="images/icon-star.svg" alt="star"> </div>
         <h1 class="titulo"> How did we do?</h1>
-        <p class="sub_titulo">Please let us know how we did with your support request. All feedback is 
+        <p class="sub_titulo">Please let us know how we did with your support request. All feedback is
             appreciated to help us improve our offering!</p>
         <div class="button-container">
-            <button  class="button is-rounded" onclick="select(this)"> 1</button>
-            <button  class="button is-rounded" onclick="select(this)"> 2</button>
-            <button  class="button is-rounded" onclick="select(this)"> 3</button>
-            <button  class="button is-rounded" onclick="select(this)"> 4</button>
-            <button  class="button is-rounded" onclick="select(this)"> 5</button>
+            <button class="rating_button is-rounded" value="1" onclick="select(this)"> 1</button>
+            <button class="rating_button is-rounded" value="2" onclick="select(this)"> 2</button>
+            <button class="rating_button is-rounded" value="3" onclick="select(this)"> 3</button>
+            <button class="rating_button is-rounded" value="4" onclick="select(this)"> 4</button>
+            <button class="rating_button is-rounded" value="5" onclick="select(this)"> 5</button>
         </div>
-        <button class="submit-button "  >Submit</button>
-        
+        <!-- <form action="index2.html">
+            <button class="submit">Submit</button>
+        </form> -->
+        <a href="index2.html" id="submitButton" class="submit">Submit</a>
 
-       
+        <div id="result"></div>
+
+
     </div>
-<script src="java.js"></script>
+    <script src="java.js"></script>
 
 
 </body>
