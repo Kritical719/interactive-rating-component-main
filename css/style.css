@@ -148,10 +148,10 @@
 
 .amount_selected {
   color: hsl(25, 97%, 53%);
-  border: none;
   border-radius: 25%;
   background-color: hsl(215, 10%, 24%);
-  justify-content: center;
+  justify-content:center;
   display: flex;
   text-align: center;
+  
 }
